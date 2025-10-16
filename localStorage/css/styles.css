@@ -1,0 +1,66 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: lightsteelblue;
+    height: 100vh;
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+h1{
+    color:cornflowerblue;
+    margin: 20px;
+}
+
+.input-container{
+    display:flex;
+    justify-content: center;
+    margin:20px;
+}
+
+input{
+    width: 70%;
+    padding:10px;
+    border: 2px;
+    border-radius: 10px;
+    outline:none;
+    font-size: 12px;
+}
+
+button{
+    margin-left: 10px;
+    padding: 10px 15px;
+    border-radius:3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: lightskyblue;
+    padding: 15px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+.completada label {
+    color:rgb(45, 174, 48);
+}
+
+label {
+    flex: none;
+    margin-left:-62px;
+    cursor:pointer;
+    font-size:14px;
+}
